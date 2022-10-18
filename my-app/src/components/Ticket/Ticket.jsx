@@ -1,5 +1,6 @@
 import "./Ticket.scss";
 import team from "../../data/team";
+import Button from "../Button/Button";
 
 const Ticket = (props) => {
   const cardName = team.map((ticket) => (
@@ -15,7 +16,9 @@ const Ticket = (props) => {
       </div>
       <div>
         <div className="container-ticket__Display"></div>
-        <div className="container-ticket__Btn"></div>
+        <div className="container-ticket__Btn">
+          <Button />
+        </div>
       </div>
     </div>
   ));

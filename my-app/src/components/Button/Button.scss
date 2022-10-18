@@ -1,0 +1,28 @@
+.plusbtn:hover,
+.plusbtn:focus,
+.minusbtn:hover,
+.minusbtn:focus {
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.plusbtn {
+  height: 20px;
+  width: 80px;
+  border: 2px solid #ef6eae;
+  color: #ef6eae;
+  background-color: white;
+}
+.minusbtn {
+  height: 20px;
+  width: 80px;
+  border: 2px solid #ef6eae;
+  color: #ef6eae;
+  background-color: white;
+}
