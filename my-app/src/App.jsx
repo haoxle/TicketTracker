@@ -9,10 +9,19 @@ import "./fonts/Oskosh.ttf";
 const App = () => {
   return (
     <>
+      <div class="sub-container">
+        <div class="sky">
+          <div class="stars"></div>
+          <div class="stars2"></div>
+          <div class="stars3"></div>
+          <div class="comet"></div>
+        </div>
+      </div>
       <div className="title">
         <h1>Ticket Tracker</h1>
+
+        <Ticket />
       </div>
-      <Ticket />
     </>
   );
 };

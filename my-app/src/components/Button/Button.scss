@@ -16,16 +16,16 @@
 .minusbtn {
   height: 30px;
   width: 80px;
-  border: 2px solid #ef6eae;
-  color: #ef6eae;
-  background-color: white;
+  border: 2px solid white;
+  color: white;
   border-radius: 10px;
   font-size: 2vh;
+  background-color: transparent;
 }
 
 $colors: (
-  plusbtn: #ef6eae,
-  minusbtn: #ef6eae,
+  plusbtn: #31572c,
+  minusbtn: #31572c,
 );
 
 @each $button, $color in $colors {
@@ -42,6 +42,6 @@ button {
   &:hover,
   &:focus {
     border-color: var(--hover);
-    color: grey;
+    color: white;
   }
 }
