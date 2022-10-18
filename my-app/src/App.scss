@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-family: "oskosh";
+  font-size: 4vh;
+  letter-spacing: 5px;
+}
+
+@font-face {
+  font-family: "chekovreg";
+  src: url("./fonts/Chekov\ Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "chekovbold";
+  src: url("./fonts/Chekov\ Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "chekovsemibold";
+  src: url("./fonts/Chekov\ SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "oskosh";
+  src: url("./fonts/Oskosh.ttf") format("truetype");
+}

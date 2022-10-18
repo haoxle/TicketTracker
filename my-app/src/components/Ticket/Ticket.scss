@@ -1,0 +1,47 @@
+.Ticket {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  .container-ticket {
+    border: 2px solid black;
+    height: 350px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .container-ticket-top {
+    border: 1px solid black;
+    margin: 20px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .role {
+    font-size: 2.5vh;
+    font-family: "chekovsemibold";
+    margin: 2vh;
+    letter-spacing: 7px;
+  }
+  .name {
+    display: flex;
+    font-size: 3.5vh;
+    font-family: "chekovreg";
+    letter-spacing: 7px;
+    margin: 2vh;
+  }
+  .container-ticket__Counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .counter {
+      font-family: "oskosh";
+      letter-spacing: 5px;
+      font-size: 5vh;
+    }
+  }
+}
