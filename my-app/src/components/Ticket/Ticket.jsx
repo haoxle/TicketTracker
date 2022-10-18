@@ -20,6 +20,11 @@ const Ticket = (props) => {
           <Button />
         </div>
       </div>
+      <img
+        className="container-ticket-img"
+        src={ticket.image}
+        alt="background"
+      />
     </div>
   ));
 

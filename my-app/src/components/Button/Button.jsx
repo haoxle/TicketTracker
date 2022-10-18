@@ -4,7 +4,6 @@ const Button = (props) => {
   return (
     <>
       <button className="minusbtn">-</button>
-
       <button className="plusbtn">+</button>
     </>
   );
