@@ -12,17 +12,35 @@
   }
 }
 
-.plusbtn {
-  height: 20px;
-  width: 80px;
-  border: 2px solid #ef6eae;
-  color: #ef6eae;
-  background-color: white;
-}
+.plusbtn,
 .minusbtn {
   height: 20px;
   width: 80px;
   border: 2px solid #ef6eae;
   color: #ef6eae;
   background-color: white;
+  border-radius: 10px;
+}
+
+$colors: (
+  plusbtn: #ef6eae,
+  minusbtn: #ef6eae,
+);
+
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: black;
+  }
 }

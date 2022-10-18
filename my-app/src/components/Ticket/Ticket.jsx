@@ -14,7 +14,7 @@ const Ticket = (props) => {
           <h1 className="counter">Counter</h1>
         </div>
       </div>
-      <div>
+      <div className="container-ticket-btm">
         <div className="container-ticket__Display"></div>
         <div className="container-ticket__Btn">
           <Button />
