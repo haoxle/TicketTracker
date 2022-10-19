@@ -1,79 +1,73 @@
-.Ticket {
+.container-ticket-img {
+  position: absolute;
+  height: 350px;
+  width: 320px;
+  border-radius: 27px 0 27px 0;
+  opacity: 0.6;
+}
+.container-ticket {
+  border: 2px solid black;
+  height: 350px;
+  width: 320px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  .container-ticket-img {
-    position: absolute;
-    height: 350px;
-    width: 320px;
-    border-radius: 27px 0 27px 0;
-    opacity: 0.6;
-  }
-  .container-ticket {
-    border: 2px solid black;
-    height: 350px;
-    width: 320px;
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    border-radius: 30px 0 30px 0;
-    position: relative;
-  }
-  .container-ticket-top {
-    border: 1px solid black;
-    margin: 20px 20px 0 20px;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    z-index: 9;
-    background: rgba(80, 80, 80, 0.5);
-    color: antiquewhite;
-  }
-  .container-ticket-btm {
-    border: 1px solid black;
-    margin: 10px 20px 20px 20px;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px;
-    z-index: 9;
-    background: rgba(80, 80, 80, 0.5);
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 30px 0 30px 0;
+  position: relative;
+}
+.container-ticket-top {
+  border: 1px solid black;
+  margin: 20px 20px 0 20px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  z-index: 9;
+  background: rgba(80, 80, 80, 0.5);
+  color: antiquewhite;
+}
+.container-ticket-btm {
+  border: 1px solid black;
+  margin: 10px 20px 20px 20px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  z-index: 9;
+  background: rgba(80, 80, 80, 0.5);
 
-    .container-ticket__Btn {
-      display: flex;
-      justify-content: space-evenly;
-      align-items: flex-end;
-    }
-    .container-ticket__Display {
-      height: 6vh;
-    }
-  }
-  .role {
-    font-size: 2.5vh;
-    font-family: "chekovsemibold";
-    margin: 2vh;
-    letter-spacing: 7px;
-  }
-  .name {
+  .container-ticket__Btn {
     display: flex;
-    font-size: 3.5vh;
-    font-family: "chekovreg";
-    letter-spacing: 7px;
-    margin: 2vh;
+    justify-content: space-evenly;
+    align-items: flex-end;
   }
-  .container-ticket__Counter {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .counter {
-      font-family: "oskosh";
-      letter-spacing: 5px;
-      font-size: 4.5vh;
-      margin-bottom: 0.5vh;
-    }
+  .container-ticket__Display {
+    height: 6vh;
+  }
+}
+.role {
+  font-size: 2.5vh;
+  font-family: "chekovsemibold";
+  margin: 2vh;
+  letter-spacing: 7px;
+}
+.name {
+  display: flex;
+  font-size: 3.5vh;
+  font-family: "chekovreg";
+  letter-spacing: 7px;
+  margin: 2vh;
+}
+.container-ticket__Counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .counter {
+    font-family: "oskosh";
+    letter-spacing: 5px;
+    font-size: 4.5vh;
+    margin-bottom: 0.5vh;
   }
 }
