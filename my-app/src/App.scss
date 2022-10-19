@@ -2,13 +2,14 @@
   margin: 0;
   padding: 0;
 }
-.Ticket {
+.ticket-content__ticket {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.title {
+
+.ticket-content {
   background-color: black;
   background-size: cover;
   display: flex;
@@ -21,7 +22,23 @@
   color: white;
   height: 100vh;
 }
+@media screen and (max-width: 425px) {
+  .ticket-content {
+    font-size: 4vh;
+    letter-spacing: 5px;
+    color: white;
+    height: 100%;
+  }
+}
 
+@media screen and (max-width: 992px) {
+  .ticket-content {
+    font-size: 4vh;
+    letter-spacing: 5px;
+    color: white;
+    height: 100%;
+  }
+}
 @font-face {
   font-family: "chekovreg";
   src: url("./fonts/Chekov\ Regular.ttf") format("truetype");

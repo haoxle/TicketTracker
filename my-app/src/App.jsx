@@ -10,9 +10,9 @@ const App = () => {
   const teamCards = team.map((teamMember) => <Ticket ticket={teamMember} />);
   return (
     <>
-      <div className="title">
-        <h1 className="title-header">Ticket Tracker</h1>
-        <div className="Ticket">{teamCards}</div>
+      <div className="ticket-content">
+        <h1 className="ticket-content__title">Ticket Tracker</h1>
+        <div className="ticket-content__ticket">{teamCards}</div>
         <div className="sub-container">
           <div className="sky">
             <div className="stars"></div>

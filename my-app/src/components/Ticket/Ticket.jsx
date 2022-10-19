@@ -11,7 +11,7 @@ const Ticket = ({ ticket }) => {
 
   return (
     <div key={ticket.name} className="container-ticket">
-      <div className="container-ticket-top">
+      <div className="container-ticket__top">
         <div className="container-ticket__Info">
           <h1 className="name">Name: {ticket.name}</h1>
           <h2 className="role">Role: {ticket.role}</h2>

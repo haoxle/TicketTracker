@@ -15,7 +15,7 @@
   border-radius: 30px 0 30px 0;
   position: relative;
 }
-.container-ticket-top {
+.container-ticket__top {
   border: 1px solid black;
   margin: 20px 20px 0 20px;
   height: 200px;
@@ -71,5 +71,79 @@
     letter-spacing: 5px;
     font-size: 4.5vh;
     margin-bottom: 0.5vh;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container-ticket-img {
+    height: 350px;
+    width: 320px;
+  }
+
+  .container-ticket__top {
+    height: 250px;
+  }
+  .container-ticket-btm {
+    height: 220px;
+    .container-ticket__Btn {
+      margin-top: 10px;
+    }
+    .container-ticket__Display {
+      height: 4vw;
+      font-size: 3vh;
+    }
+  }
+  .role {
+    font-size: 3vw;
+    margin: 10px;
+    letter-spacing: 7px;
+  }
+  .name {
+    font-size: 4vw;
+    letter-spacing: 7px;
+    margin: 2vh;
+  }
+
+  .container-ticket__Counter {
+    .counter {
+      font-size: 3vw;
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .container-ticket-img {
+    height: 350px;
+    width: 320px;
+  }
+
+  .container-ticket__top {
+    height: 270px;
+  }
+  .container-ticket-btm {
+    height: 200px;
+    .container-ticket__Btn {
+      margin-top: 20px;
+    }
+    .container-ticket__Display {
+      height: 10vw;
+      font-size: 4vh;
+    }
+  }
+  .role {
+    font-size: 4vw;
+    margin: 10px;
+    letter-spacing: 7px;
+  }
+  .name {
+    font-size: 7vw;
+    letter-spacing: 7px;
+    margin: 2vh;
+  }
+
+  .container-ticket__Counter {
+    .counter {
+      font-size: 7vw;
+    }
   }
 }
