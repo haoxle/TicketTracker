@@ -1,7 +1,14 @@
 import "./Ticket.scss";
 import Button from "../Button/Button";
+import { useState } from "react";
 
 const Ticket = ({ ticket }) => {
+  const [counter, setCounter] = useState(0);
+
+  const increase = () => setCounter(counter + 1);
+  const decrease = () =>
+    counter > 0 ? setCounter(counter - 1) : setCounter(counter);
+
   return (
     <div key={ticket.name} className="container-ticket">
       <div className="container-ticket-top">
@@ -14,9 +21,10 @@ const Ticket = ({ ticket }) => {
         </div>
       </div>
       <div className="container-ticket-btm">
-        <div className="container-ticket__Display"></div>
+        <div className="container-ticket__Display">{counter}</div>
         <div className="container-ticket__Btn">
-          <Button />
+          <Button buttonContent="-" clickFunction={decrease} />
+          <Button buttonContent="+" clickFunction={increase} />
         </div>
       </div>
       <img

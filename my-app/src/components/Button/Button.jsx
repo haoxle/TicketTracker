@@ -1,10 +1,11 @@
 import "./Button.scss";
 
-const Button = (props) => {
+const Button = ({ clickFunction, buttonContent }) => {
   return (
     <>
-      <button className="minusbtn">-</button>
-      <button className="plusbtn">+</button>
+      <button className="minusbtn" onClick={clickFunction}>
+        {buttonContent}
+      </button>
     </>
   );
 };
