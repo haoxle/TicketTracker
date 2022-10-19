@@ -1,0 +1,35 @@
+.inputBox {
+  display: flex;
+}
+
+.select {
+  color: black;
+  font-size: 15px;
+  margin-left: 40px;
+  position: fixed;
+  position: relative;
+  z-index: 10;
+}
+.inputBoxDiv {
+  height: 20px;
+  margin-top: -10px;
+}
+.inputBox__Search {
+  height: 37px;
+  border-radius: 5px;
+}
+
+.css-tlfecz-indicatorContainer,
+.css-1okebmr-indicatorSeparator,
+.css-6j8wv5-Input,
+.css-qc6sy-singleValue,
+.css-1s2u09g-control,
+.css-1f43avz-a11yText-A11yText,
+.css-1hb7zxy-IndicatorsContainer,
+.css-2613qy-menu,
+.css-319lph-ValueContainer,
+.css-1s2u09g-control {
+  font-size: 17px;
+  height: 100%;
+  position: static;
+}

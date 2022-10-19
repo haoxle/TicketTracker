@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
 }
+.ticket-content__title {
+  font-size: 3vw;
+}
 .ticket-content__ticket {
   display: flex;
   flex-direction: row;
