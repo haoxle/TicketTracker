@@ -1,9 +1,8 @@
 import "./Ticket.scss";
-import team from "../../data/team";
 import Button from "../Button/Button";
 
-const Ticket = (props) => {
-  const cardName = team.map((ticket) => (
+const Ticket = ({ ticket }) => {
+  return (
     <div key={ticket.name} className="container-ticket">
       <div className="container-ticket-top">
         <div className="container-ticket__Info">
@@ -26,9 +25,7 @@ const Ticket = (props) => {
         alt="background"
       />
     </div>
-  ));
-
-  return <div className="Ticket"> {cardName}</div>;
+  );
 };
 
 export default Ticket;
