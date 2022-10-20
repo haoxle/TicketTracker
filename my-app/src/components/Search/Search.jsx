@@ -10,28 +10,19 @@ const Search = ({ searching }) => {
   };
   return (
     <>
-      <div className="inputBox">
-        <div className="inputBoxDiv">
-          <input
-            placeholder="Enter name"
-            className="inputBox__Search"
-            onInput={searching}
-          ></input>
-        </div>
-        <div>
-          <Select
-            className="select"
-            placeholder="Select Role"
-            value={selectedOption}
-            options={roles.map((role) => {
-              return {
-                value: roles.indexOf(role) + 1,
-                label: role,
-              };
-            })}
-            onChange={handleChange}
-          />
-        </div>
+      <div>
+        <Select
+          className="select"
+          placeholder="Select Role"
+          value={selectedOption}
+          options={roles.map((role) => {
+            return {
+              value: roles.indexOf(role) + 1,
+              label: role,
+            };
+          })}
+          onChange={handleChange}
+        />
       </div>
     </>
   );
