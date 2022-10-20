@@ -7,7 +7,7 @@ import "./fonts/Chekov Regular.ttf";
 import "./fonts/Chekov Bold.ttf";
 import "./fonts/Chekov SemiBold.ttf";
 import "./fonts/Oskosh.ttf";
-import Input from "./components/Input/Input";
+// import Input from "./components/Input/Input";
 // import { useState } from "react";
 
 const App = () => {
