@@ -1,5 +1,5 @@
 # TicketTracker
-Project Summary I have created a fantasy ticket tracker to track ticket progress of inidividual emplkoyees.
+Project Summary I have created a  ticket tracker to track ticket progress of inidividual employees.
 
 Within this project I have used react.
 
