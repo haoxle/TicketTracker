@@ -1,6 +1,6 @@
 import "./App.scss";
 import Ticket from "./components/Ticket/Ticket";
-import Search from "./components/Search/Search";
+// import Search from "./components/Search/Search";
 import { team } from "./data/team.js";
 import "./fonts/Chekov Regular.ttf";
 import "./fonts/Chekov Bold.ttf";
@@ -30,7 +30,7 @@ const App = () => {
         <h1 className="ticket-content__title">Ticket Tracker</h1>
         <div className="search-box">
           <Input handleSearch={handleSearch} />
-          <Search />
+          {/* <Search /> */}
         </div>
         <div className="ticket-content__ticket">{searchTerm}</div>
         <div className="sub-container">
