@@ -15,8 +15,9 @@ const App = () => {
   );
 
   const handleSearch = (event) => {
+    const helloHi = event.target.value;
     const filteredTeam = team.filter((teamMate) =>
-      teamMate.name.toLowerCase().includes(event.target.value)
+      teamMate.name.toLowerCase().includes(helloHi.toLowerCase())
     );
     setSearchTerm(
       filteredTeam.map((teamMember) => <Ticket ticket={teamMember} />)
