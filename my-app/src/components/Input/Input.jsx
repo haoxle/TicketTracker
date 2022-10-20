@@ -6,7 +6,6 @@ const Input = ({ searchTerm, handleSearch }) => {
       <input
         placeholder="Enter name"
         type="text"
-        value={searchTerm}
         className="inputBox__Search"
         onInput={handleSearch}
       ></input>
