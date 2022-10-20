@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/TicketTracker/static/css/main.5ef7107a.css",
+    "main.js": "/TicketTracker/static/js/main.7a25dbf1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/TicketTracker/static/js/787.28cb0dcd.chunk.js",
+    "static/media/img10.jpg": "/TicketTracker/static/media/img10.bfb63bf7c13608b99b37.jpg",
+    "static/media/img3.jpg": "/TicketTracker/static/media/img3.d62d195cc17e6173f3e9.jpg",
+    "static/media/img7.jpg": "/TicketTracker/static/media/img7.5cc1ff6eac282209fdba.jpg",
+    "static/media/img9.jpg": "/TicketTracker/static/media/img9.1575a1ad4aa4803e0c13.jpg",
+    "static/media/img4.jpg": "/TicketTracker/static/media/img4.7111fc0c0e5591931df6.jpg",
+    "static/media/img8.jpg": "/TicketTracker/static/media/img8.338afce530981ba6d43e.jpg",
+    "static/media/img1.jpg": "/TicketTracker/static/media/img1.3d99e3d330dceffec7c3.jpg",
+    "static/media/img2.jpg": "/TicketTracker/static/media/img2.44189a9c777ff05b6921.jpg",
+    "static/media/img6.jpg": "/TicketTracker/static/media/img6.765d35909798acf075b0.jpg",
+    "static/media/img5.jpg": "/TicketTracker/static/media/img5.cfe462ce89299bf41284.jpg",
+    "static/media/Oskosh.ttf": "/TicketTracker/static/media/Oskosh.16c07f739942d7408817.ttf",
+    "static/media/Chekov SemiBold.ttf": "/TicketTracker/static/media/Chekov SemiBold.48c14a95e6940c30e0bd.ttf",
+    "static/media/Chekov Regular.ttf": "/TicketTracker/static/media/Chekov Regular.c82006e02653d8cdc258.ttf",
+    "static/media/Chekov Bold.ttf": "/TicketTracker/static/media/Chekov Bold.aed2bd2059dfd5748d94.ttf",
+    "index.html": "/TicketTracker/index.html",
+    "main.5ef7107a.css.map": "/TicketTracker/static/css/main.5ef7107a.css.map",
+    "main.7a25dbf1.js.map": "/TicketTracker/static/js/main.7a25dbf1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/TicketTracker/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ef7107a.css",
+    "static/js/main.7a25dbf1.js"
+  ]
+}
