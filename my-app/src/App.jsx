@@ -1,7 +1,6 @@
 import "./App.scss";
 import Ticket from "./components/Ticket/Ticket";
 import Search from "./components/Search/Search";
-// import SearchBar from "./container/SearchBar/SearchBar";
 import { team } from "./data/team.js";
 import "./fonts/Chekov Regular.ttf";
 import "./fonts/Chekov Bold.ttf";
