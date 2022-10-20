@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/TicketTracker/static/css/main.5ef7107a.css",
-    "main.js": "/TicketTracker/static/js/main.7a25dbf1.js",
+    "main.css": "/TicketTracker/static/css/main.85bcc595.css",
+    "main.js": "/TicketTracker/static/js/main.c2a9740f.js",
     "static/js/787.28cb0dcd.chunk.js": "/TicketTracker/static/js/787.28cb0dcd.chunk.js",
     "static/media/img10.jpg": "/TicketTracker/static/media/img10.bfb63bf7c13608b99b37.jpg",
     "static/media/img3.jpg": "/TicketTracker/static/media/img3.d62d195cc17e6173f3e9.jpg",
@@ -18,12 +18,12 @@
     "static/media/Chekov Regular.ttf": "/TicketTracker/static/media/Chekov Regular.c82006e02653d8cdc258.ttf",
     "static/media/Chekov Bold.ttf": "/TicketTracker/static/media/Chekov Bold.aed2bd2059dfd5748d94.ttf",
     "index.html": "/TicketTracker/index.html",
-    "main.5ef7107a.css.map": "/TicketTracker/static/css/main.5ef7107a.css.map",
-    "main.7a25dbf1.js.map": "/TicketTracker/static/js/main.7a25dbf1.js.map",
+    "main.85bcc595.css.map": "/TicketTracker/static/css/main.85bcc595.css.map",
+    "main.c2a9740f.js.map": "/TicketTracker/static/js/main.c2a9740f.js.map",
     "787.28cb0dcd.chunk.js.map": "/TicketTracker/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ef7107a.css",
-    "static/js/main.7a25dbf1.js"
+    "static/css/main.85bcc595.css",
+    "static/js/main.c2a9740f.js"
   ]
 }
